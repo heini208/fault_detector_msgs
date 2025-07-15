@@ -1,0 +1,29 @@
+# ROS 2 workspace artifacts
+/build/
+/install/
+/log/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# C/C++ build artifacts
+*.so
+*.a
+*.o
+*.obj
+
+# IDE and editor files
+.idea/
+.vscode/
+*~
+.*.swp
+*.swp
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
