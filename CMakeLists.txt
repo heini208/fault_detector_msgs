@@ -29,7 +29,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TagElement.msg"
   "msg/TagElementArray.msg"
-  "msg/basic_command.msg"
+  "msg/BasicCommand.msg"
   DEPENDENCIES geometry_msgs
 )
 
