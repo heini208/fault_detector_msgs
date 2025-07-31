@@ -31,6 +31,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/BasicCommand.msg"
   "msg/TagElement.msg"
   "msg/TagElementArray.msg"
+  "msg/CommandRecordControl.msg"
+  "msg/RecordingList.msg"
   DEPENDENCIES geometry_msgs
 )
 
