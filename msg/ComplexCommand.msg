@@ -4,4 +4,4 @@ geometry_msgs/PoseStamped offset                 # an extra offset you can set f
 string                    orientation_mode
 float32                   wait_time                # duration in seconds
 string                    map_name
-string                    landmark_name
+string                    waypoint_name
