@@ -1,0 +1,3 @@
+InspectionObjectDefinition object
+InspectionRoutineDefinition routine
+bool replace_existing

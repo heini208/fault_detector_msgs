@@ -20,6 +20,9 @@ find_package(std_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/InspectionObjectDefinition.msg"
+  "msg/InspectionRoutineDefinition.msg"
+  "msg/InspectionCommand.msg"
   "msg/ComplexCommand.msg"
   "msg/BasicCommand.msg"
   "msg/TagElement.msg"

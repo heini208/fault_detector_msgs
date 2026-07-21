@@ -5,11 +5,4 @@ string                    orientation_mode
 float32                   wait_time                # duration in seconds
 string                    map_name
 string                    waypoint_name
-string                    object_id
-string                    routine_id
-string                    display_name
-int32                     reference_tag_id
-string                    reference_tag_family
-string                    sensor_id
-string                    probe_frame
-bool                      replace_existing
+InspectionCommand         inspection
