@@ -5,3 +5,5 @@ string                    orientation_mode
 float32                   wait_time                # duration in seconds
 string                    map_name
 string                    waypoint_name
+string                    object_id
+string                    routine_id
