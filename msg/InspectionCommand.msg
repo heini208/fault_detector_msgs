@@ -1,3 +1,4 @@
 InspectionObjectDefinition object
 InspectionRoutineDefinition routine
 bool replace_existing
+string[3] reference_camera_ids
