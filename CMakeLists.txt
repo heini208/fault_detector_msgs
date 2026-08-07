@@ -35,6 +35,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SensorDefinition.msg"
   "msg/SensorDefinitionArray.msg"
   "srv/AddSensor.srv"
+  "srv/RetireSensor.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 
