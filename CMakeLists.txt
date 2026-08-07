@@ -32,6 +32,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/InspectionObjectState.msg"
   "msg/InspectionObjectStateArray.msg"
   "msg/LiveInspectionObjectState.msg"
+  "msg/SensorDefinition.msg"
+  "msg/SensorDefinitionArray.msg"
+  "srv/AddSensor.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 
