@@ -17,6 +17,7 @@ endif()
 find_package(geometry_msgs REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(action_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -25,6 +26,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/InspectionCommand.msg"
   "msg/ComplexCommand.msg"
   "msg/BasicCommand.msg"
+  "msg/CommandStatus.msg"
   "msg/TagElement.msg"
   "msg/TagElementArray.msg"
   "msg/CommandRecordControl.msg"
@@ -36,7 +38,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SensorDefinitionArray.msg"
   "srv/AddSensor.srv"
   "srv/RetireSensor.srv"
-  DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
+  "action/ExecuteProbePoint.action"
+  DEPENDENCIES action_msgs builtin_interfaces geometry_msgs std_msgs
 )
 
 ament_package()
