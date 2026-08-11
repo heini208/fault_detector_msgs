@@ -1,0 +1,5 @@
+string client_id
+---
+bool accepted
+string request_id
+string detail

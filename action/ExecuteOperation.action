@@ -1,0 +1,7 @@
+string client_id
+string context_id
+OperationalIntent intent
+---
+ApplicationCommandState state
+---
+ApplicationCommandState state

@@ -28,6 +28,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/BasicCommand.msg"
   "msg/CommandStatus.msg"
   "msg/CommandRequest.msg"
+  "msg/OperationalIntent.msg"
+  "msg/ApplicationCommandState.msg"
   "msg/TagElement.msg"
   "msg/TagElementArray.msg"
   "msg/CommandRecordControl.msg"
@@ -39,7 +41,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SensorDefinitionArray.msg"
   "srv/AddSensor.srv"
   "srv/RetireSensor.srv"
+  "srv/CancelOperation.srv"
+  "srv/EmergencyStop.srv"
   "action/ExecuteProbePoint.action"
+  "action/ExecuteOperation.action"
   DEPENDENCIES action_msgs builtin_interfaces geometry_msgs std_msgs
 )
 
