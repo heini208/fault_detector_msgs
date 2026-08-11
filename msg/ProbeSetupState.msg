@@ -16,6 +16,15 @@ uint8 MOTION_MOVING=1
 uint8 MOTION_REACHED=2
 uint8 MOTION_FAILED=3
 
+uint8 SURFACE_VERIFICATION_IDLE=0
+uint8 SURFACE_VERIFICATION_SAMPLING=1
+uint8 SURFACE_VERIFICATION_MOVING=2
+uint8 SURFACE_VERIFICATION_SETTLING=3
+uint8 SURFACE_VERIFICATION_CONVERGED=4
+uint8 SURFACE_VERIFICATION_FAILED=5
+uint8 SURFACE_VERIFICATION_CANCELLED=6
+uint8 SURFACE_VERIFICATION_RECOVERY_REQUIRED=7
+
 std_msgs/Header header
 string request_id
 string client_id
@@ -88,3 +97,16 @@ uint8 alignment_motion_state
 uint8 probe_motion_state
 bool motion_pending
 string motion_request_id
+
+bool surface_verification_active
+uint8 surface_verification_state
+string surface_verification_request_id
+bool has_surface_distance_measurement
+float64 measured_surface_distance_m
+float64 surface_distance_error_m
+float64 surface_distance_tolerance_m
+bool has_surface_correction
+float64 last_surface_correction_m
+float64 cumulative_surface_correction_m
+uint32 surface_verification_iteration
+bool surface_recovery_required
