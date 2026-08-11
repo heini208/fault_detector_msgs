@@ -1,0 +1,27 @@
+uint8 MODE_UNSPECIFIED=0
+uint8 MODE_SAVE_AND_RETRACT=1
+uint8 MODE_RETRACT_WITHOUT_SAVING=2
+
+string client_id
+string context_id
+uint8 mode
+string probe_point_id
+string probe_point_display_name
+float64 position_tolerance_m
+float64 orientation_tolerance_rad
+float64 measurement_duration_sec
+---
+bool probe_point_saved
+ProbeSetupState state
+---
+uint8 PHASE_UNSPECIFIED=0
+uint8 PHASE_APPROVING=1
+uint8 PHASE_SAVING=2
+uint8 PHASE_RETRACTING_TO_ALIGNED=3
+uint8 PHASE_RETRACTING_TO_SAFE=4
+uint8 PHASE_COMPLETE=5
+uint8 PHASE_RECOVERY_REQUIRED=6
+
+uint8 phase
+bool probe_point_saved
+ProbeSetupState state

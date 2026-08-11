@@ -97,6 +97,8 @@ uint8 alignment_motion_state
 uint8 probe_motion_state
 bool motion_pending
 string motion_request_id
+bool refinement_recovery_required
+string refinement_recovery_message
 
 bool surface_verification_active
 uint8 surface_verification_state

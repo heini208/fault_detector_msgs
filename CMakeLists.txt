@@ -58,6 +58,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/ExecuteNavigationSetup.action"
   "action/ExecuteProbeSetupMotion.action"
   "action/ExecuteProbeSurfaceVerification.action"
+  "action/FinalizeProbeRefinement.action"
   DEPENDENCIES action_msgs builtin_interfaces geometry_msgs sensor_msgs std_msgs
 )
 
