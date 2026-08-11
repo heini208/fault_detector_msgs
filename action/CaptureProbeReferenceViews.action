@@ -1,0 +1,14 @@
+string client_id
+string context_id
+string[] reference_camera_ids
+bool replace_existing
+---
+ProbeSetupState state
+---
+uint8 PHASE_WAITING_FOR_INPUTS=1
+uint8 PHASE_VALIDATING=2
+uint8 PHASE_SAVING=3
+uint8 PHASE_COMPLETE=4
+uint8 phase
+uint32 attempt
+ProbeSetupState state
