@@ -1,0 +1,59 @@
+uint8 STATE_UNSPECIFIED=0
+uint8 STATE_READY=1
+uint8 STATE_SUCCEEDED=2
+uint8 STATE_FAILED=3
+
+std_msgs/Header header
+string request_id
+string client_id
+string context_id
+uint32 revision
+uint8 operation
+uint8 state
+string detail
+string validation_error
+bool dirty
+
+string selected_object_id
+string selected_routine_id
+string selected_reference_view_id
+string[] object_ids
+string[] routine_ids
+string[] reference_view_ids
+string[] reference_camera_ids
+string[] sensor_ids
+string[] probe_point_ids
+
+bool has_reference_pixel
+int32 reference_pixel_u
+int32 reference_pixel_v
+bool has_surface_point
+geometry_msgs/Point surface_point_camera
+string surface_frame
+int32 mapped_depth_u
+int32 mapped_depth_v
+int32 sampled_depth_u
+int32 sampled_depth_v
+float64 depth_m
+
+bool has_surface_normal
+geometry_msgs/Vector3 surface_normal_camera
+uint32 surface_normal_sample_count
+float64 surface_normal_rmse_m
+string surface_normal_error
+
+bool has_approach_direction
+geometry_msgs/Vector3 approach_direction_camera
+string approach_source
+
+bool has_probe_setup
+geometry_msgs/Point surface_point_object
+geometry_msgs/Vector3 outward_direction_object
+geometry_msgs/Pose safe_approach_pose_object
+geometry_msgs/Pose aligned_preapproach_pose_object
+geometry_msgs/Pose probe_pose_object
+bool safe_approach_approved
+bool surface_alignment_approved
+bool probe_pose_approved
+float64 target_surface_distance_m
+float64 aligned_preapproach_distance_m
