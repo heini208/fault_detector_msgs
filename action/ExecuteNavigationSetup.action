@@ -1,0 +1,7 @@
+string client_id
+string context_id
+NavigationSetupIntent intent
+---
+NavigationSetupState state
+---
+NavigationSetupState state
