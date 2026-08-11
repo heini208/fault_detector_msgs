@@ -1,0 +1,14 @@
+string client_id
+string context_id
+string reference_view_id
+---
+bool success
+string detail
+string reference_view_id
+string camera_id
+int32 slot_index
+sensor_msgs/Image image
+int32 selectable_x
+int32 selectable_y
+int32 selectable_width
+int32 selectable_height

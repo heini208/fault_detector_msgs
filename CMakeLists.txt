@@ -17,6 +17,7 @@ endif()
 find_package(geometry_msgs REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 find_package(action_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
@@ -50,10 +51,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/CloseNavigationSetup.srv"
   "srv/CloseProbeSetup.srv"
   "srv/ExecuteProbeSetup.srv"
+  "srv/GetProbeReferencePreview.srv"
   "action/ExecuteProbePoint.action"
   "action/ExecuteOperation.action"
   "action/ExecuteNavigationSetup.action"
-  DEPENDENCIES action_msgs builtin_interfaces geometry_msgs std_msgs
+  DEPENDENCIES action_msgs builtin_interfaces geometry_msgs sensor_msgs std_msgs
 )
 
 ament_package()

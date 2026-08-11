@@ -17,6 +17,9 @@ bool dirty
 string selected_object_id
 string selected_routine_id
 string selected_reference_view_id
+int32 selected_reference_tag_id
+string selected_reference_tag_family
+string selected_sensor_id
 string[] object_ids
 string[] routine_ids
 string[] reference_view_ids
@@ -49,6 +52,9 @@ string approach_source
 bool has_probe_setup
 geometry_msgs/Point surface_point_object
 geometry_msgs/Vector3 outward_direction_object
+geometry_msgs/Pose calculated_safe_approach_pose_object
+geometry_msgs/Pose calculated_aligned_preapproach_pose_object
+geometry_msgs/Pose calculated_probe_pose_object
 geometry_msgs/Pose safe_approach_pose_object
 geometry_msgs/Pose aligned_preapproach_pose_object
 geometry_msgs/Pose probe_pose_object
