@@ -27,6 +27,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ComplexCommand.msg"
   "msg/BasicCommand.msg"
   "msg/CommandStatus.msg"
+  "msg/CommandRequest.msg"
   "msg/TagElement.msg"
   "msg/TagElementArray.msg"
   "msg/CommandRecordControl.msg"

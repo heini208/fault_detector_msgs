@@ -1,0 +1,18 @@
+uint8 ORIGIN_UNSPECIFIED=0
+uint8 ORIGIN_OPERATIONAL=1
+uint8 ORIGIN_PROBE_SETUP=2
+uint8 ORIGIN_NAVIGATION_SETUP=3
+uint8 ORIGIN_PLAYBACK=4
+uint8 ORIGIN_INTERNAL=5
+uint8 ORIGIN_SYSTEM=6
+
+uint8 RECORDING_POLICY_UNSPECIFIED=0
+uint8 RECORDING_POLICY_EXCLUDE=1
+uint8 RECORDING_POLICY_INCLUDE_IF_RECORDING_ACTIVE=2
+
+string request_id
+string client_id
+string context_id
+uint8 origin
+uint8 recording_policy
+ComplexCommand command
