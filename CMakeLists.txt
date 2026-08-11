@@ -34,6 +34,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/NavigationSetupIntent.msg"
   "msg/NavigationSetupState.msg"
   "msg/ProbeSetupIntent.msg"
+  "msg/ProbeSetupMotionIntent.msg"
   "msg/ProbeSetupState.msg"
   "msg/TagElement.msg"
   "msg/TagElementArray.msg"
@@ -55,6 +56,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/ExecuteProbePoint.action"
   "action/ExecuteOperation.action"
   "action/ExecuteNavigationSetup.action"
+  "action/ExecuteProbeSetupMotion.action"
   DEPENDENCIES action_msgs builtin_interfaces geometry_msgs sensor_msgs std_msgs
 )
 

@@ -1,0 +1,7 @@
+string client_id
+string context_id
+ProbeSetupMotionIntent intent
+---
+ProbeSetupState state
+---
+ProbeSetupState state

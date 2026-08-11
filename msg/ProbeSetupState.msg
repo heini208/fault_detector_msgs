@@ -2,6 +2,19 @@ uint8 STATE_UNSPECIFIED=0
 uint8 STATE_READY=1
 uint8 STATE_SUCCEEDED=2
 uint8 STATE_FAILED=3
+uint8 STATE_QUEUED=4
+uint8 STATE_RUNNING=5
+uint8 STATE_CANCELLED=6
+
+uint8 REFINEMENT_STAGE_NONE=0
+uint8 REFINEMENT_STAGE_SAFE_APPROACH=1
+uint8 REFINEMENT_STAGE_ALIGNMENT=2
+uint8 REFINEMENT_STAGE_PROBE=3
+
+uint8 MOTION_NOT_TESTED=0
+uint8 MOTION_MOVING=1
+uint8 MOTION_REACHED=2
+uint8 MOTION_FAILED=3
 
 std_msgs/Header header
 string request_id
@@ -9,6 +22,7 @@ string client_id
 string context_id
 uint32 revision
 uint8 operation
+uint8 motion_operation
 uint8 state
 string detail
 string validation_error
@@ -63,3 +77,14 @@ bool surface_alignment_approved
 bool probe_pose_approved
 float64 target_surface_distance_m
 float64 aligned_preapproach_distance_m
+
+bool refinement_active
+uint8 refinement_stage
+geometry_msgs/Pose safe_approach_candidate_pose_object
+geometry_msgs/Pose aligned_preapproach_candidate_pose_object
+geometry_msgs/Pose probe_candidate_pose_object
+uint8 safe_approach_motion_state
+uint8 alignment_motion_state
+uint8 probe_motion_state
+bool motion_pending
+string motion_request_id
