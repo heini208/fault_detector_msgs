@@ -6,4 +6,6 @@ string orientation_mode
 float32 wait_time
 string map_name
 string waypoint_name
-InspectionCommand inspection
+string object_id
+string routine_id
+string probe_point_id
