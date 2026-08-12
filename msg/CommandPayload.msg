@@ -1,0 +1,9 @@
+string command_id
+bool has_tag
+TagElement tag
+geometry_msgs/PoseStamped offset
+string orientation_mode
+float32 wait_time
+string map_name
+string waypoint_name
+InspectionCommand inspection

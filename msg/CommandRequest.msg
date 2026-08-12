@@ -10,9 +10,10 @@ uint8 RECORDING_POLICY_UNSPECIFIED=0
 uint8 RECORDING_POLICY_EXCLUDE=1
 uint8 RECORDING_POLICY_INCLUDE_IF_RECORDING_ACTIVE=2
 
+std_msgs/Header header
 string request_id
 string client_id
 string context_id
 uint8 origin
 uint8 recording_policy
-ComplexCommand command
+CommandPayload payload

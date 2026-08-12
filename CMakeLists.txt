@@ -23,8 +23,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/InspectionCommand.msg"
-  "msg/ComplexCommand.msg"
-  "msg/BasicCommand.msg"
+  "msg/CommandPayload.msg"
   "msg/CommandStatus.msg"
   "msg/CommandRequest.msg"
   "msg/OperationalIntent.msg"
