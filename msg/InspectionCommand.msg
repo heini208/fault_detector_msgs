@@ -1,5 +1,3 @@
-InspectionObjectDefinition object
-InspectionRoutineDefinition routine
+string object_id
+string routine_id
 string probe_point_id
-bool replace_existing
-string[3] reference_camera_ids

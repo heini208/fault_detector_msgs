@@ -11,8 +11,6 @@ uint8 OPERATION_CLEAR_REFERENCE_PIXEL=9
 uint8 OPERATION_UPDATE_GEOMETRY=10
 uint8 OPERATION_APPROVE_SAFE_POSE=11
 uint8 OPERATION_APPROVE_ALIGNED_POSE=12
-uint8 OPERATION_APPROVE_PROBE_POSE=13
-uint8 OPERATION_SAVE_PROBE_POINT=14
 uint8 OPERATION_SELECT_OBJECT=15
 uint8 OPERATION_BEGIN_REFINEMENT=16
 uint8 OPERATION_END_REFINEMENT=17
@@ -31,8 +29,3 @@ int32 pixel_v
 string approach_mode
 float64 target_surface_distance_m
 float64 aligned_preapproach_distance_m
-string probe_point_id
-string probe_point_display_name
-float64 position_tolerance_m
-float64 orientation_tolerance_rad
-float64 measurement_duration_sec
