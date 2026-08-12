@@ -1,0 +1,5 @@
+string client_id
+string context_id
+---
+bool closed
+string detail
