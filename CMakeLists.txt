@@ -5,7 +5,6 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# find dependencies
 find_package(ament_cmake REQUIRED)
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -46,6 +45,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/CloseSetup.srv"
   "srv/ExecuteProbeSetup.srv"
   "srv/GetProbeReferencePreview.srv"
+  "srv/CalculateProbeSurfaceOrientation.srv"
   "action/ExecuteProbePoint.action"
   "action/ExecuteOperation.action"
   "action/ExecuteNavigationSetup.action"

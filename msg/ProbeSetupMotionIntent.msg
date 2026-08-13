@@ -11,6 +11,9 @@ uint8 FRAME_TAG=3
 uint8 FRAME_BODY=4
 uint8 FRAME_MAP=5
 
+uint8 ALIGNMENT_ORIENTATION_TAG=0
+uint8 ALIGNMENT_ORIENTATION_CALCULATED_SURFACE=1
+
 uint8 operation
 uint8 frame
 geometry_msgs/Vector3 translation
@@ -18,3 +21,8 @@ float64 pitch_rad
 float64 yaw_rad
 float64 position_tolerance_m
 float64 orientation_tolerance_rad
+
+uint8 alignment_orientation_mode
+bool orientation_only
+bool has_calculated_surface_orientation
+geometry_msgs/Quaternion calculated_surface_orientation_object

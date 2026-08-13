@@ -1,0 +1,10 @@
+string client_id
+string context_id
+---
+bool success
+string detail
+geometry_msgs/Quaternion probe_orientation_object
+geometry_msgs/Quaternion hand_orientation_object
+geometry_msgs/Vector3 surface_normal_object
+uint32 sample_count
+float64 plane_rmse_m
