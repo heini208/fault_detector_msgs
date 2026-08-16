@@ -9,3 +9,4 @@ string waypoint_name
 string object_id
 string routine_id
 string probe_point_id
+string motion_sensor_id

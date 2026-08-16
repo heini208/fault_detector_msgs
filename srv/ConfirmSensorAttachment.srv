@@ -1,0 +1,6 @@
+string sensor_id
+uint64 attachment_revision
+---
+bool success
+string detail
+SensorAttachmentState state

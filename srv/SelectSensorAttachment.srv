@@ -1,0 +1,5 @@
+string sensor_id
+---
+bool success
+string detail
+SensorAttachmentState state
