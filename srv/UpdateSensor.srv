@@ -1,0 +1,4 @@
+SensorDefinition sensor
+---
+bool success
+string message
