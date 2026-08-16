@@ -22,7 +22,6 @@ int32 reference_tag_id
 string reference_tag_family
 string routine_id
 string routine_display_name
-string sensor_id
 string reference_view_id
 int32 pixel_u
 int32 pixel_v

@@ -42,12 +42,10 @@ string selected_routine_id
 string selected_reference_view_id
 int32 selected_reference_tag_id
 string selected_reference_tag_family
-string selected_sensor_id
 string[] object_ids
 string[] routine_ids
 string[] reference_view_ids
 string[] reference_camera_ids
-string[] sensor_ids
 string[] probe_point_ids
 
 bool has_reference_pixel
