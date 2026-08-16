@@ -42,7 +42,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddSensor.srv"
   "srv/UpdateSensor.srv"
   "srv/DeleteSensor.srv"
-  "srv/RetireSensor.srv"
   "srv/CancelOperation.srv"
   "srv/EmergencyStop.srv"
   "srv/CloseSetup.srv"
