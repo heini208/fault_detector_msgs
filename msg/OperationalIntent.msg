@@ -15,12 +15,14 @@ uint8 INTENT_MOVE_BASE_RELATIVE=13
 uint8 INTENT_MOVE_TO_WAYPOINT=14
 uint8 INTENT_WAIT=15
 uint8 INTENT_EXECUTE_PROBE_POINT=16
+uint8 INTENT_MOVE_CLOSE_TO_SURFACE=17
 
 uint8 intent
 TagElement tag
 geometry_msgs/PoseStamped offset
 string orientation_mode
 float32 duration_sec
+float64 target_surface_distance_m
 string map_name
 string waypoint_name
 string object_id
