@@ -23,6 +23,7 @@ geometry_msgs/PoseStamped offset
 string orientation_mode
 float32 duration_sec
 float64 target_surface_distance_m
+float64 aligned_preapproach_distance_m
 string map_name
 string waypoint_name
 string object_id
