@@ -1,0 +1,8 @@
+string request_id
+float64 target_surface_distance_m
+---
+bool success
+string detail
+---
+string phase
+string detail
