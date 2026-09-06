@@ -1,3 +1,4 @@
 string sensor_id
 string display_name
 geometry_msgs/Pose hand_to_probe
+SensorChannel[] channels

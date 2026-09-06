@@ -37,6 +37,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/StringArray.msg"
   "msg/LiveInspectionObjectState.msg"
   "msg/MicroRosAgentState.msg"
+  "msg/SensorChannel.msg"
   "msg/SensorDefinition.msg"
   "msg/SensorDefinitionArray.msg"
   "msg/SensorAttachmentState.msg"
