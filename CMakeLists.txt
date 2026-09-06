@@ -50,6 +50,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/CalculateProbeSurfaceOrientation.srv"
   "srv/SelectSensorAttachment.srv"
   "srv/ConfirmSensorAttachment.srv"
+  "srv/SetSensorAcquisition.srv"
   "action/ExecuteProbePoint.action"
   "action/ExecuteOperation.action"
   "action/ExecuteNavigationSetup.action"
