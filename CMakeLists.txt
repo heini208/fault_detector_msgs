@@ -42,6 +42,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SensorDefinitionArray.msg"
   "msg/SensorAttachmentState.msg"
   "msg/SensorHeadConnectionState.msg"
+  "msg/SensorAcquisitionState.msg"
   "srv/AddSensor.srv"
   "srv/UpdateSensor.srv"
   "srv/DeleteSensor.srv"
