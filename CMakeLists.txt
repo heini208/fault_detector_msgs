@@ -51,7 +51,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/CloseSetup.srv"
   "srv/ExecuteProbeSetup.srv"
   "srv/GetProbeReferencePreview.srv"
-  "srv/CalculateProbeSurfaceOrientation.srv"
   "srv/SelectSensorAttachment.srv"
   "srv/ConfirmSensorAttachment.srv"
   "srv/SetSensorAcquisition.srv"
