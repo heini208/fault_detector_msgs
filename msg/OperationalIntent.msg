@@ -20,6 +20,7 @@ uint8 INTENT_START_SENSOR_RECORDING=18
 uint8 INTENT_STOP_SENSOR_RECORDING=19
 uint8 INTENT_SIT_DOWN=20
 uint8 INTENT_ORIENT_TO_SURFACE=21
+uint8 INTENT_ORIENT_TO_TAG=22
 
 uint8 intent
 TagElement tag
@@ -27,6 +28,7 @@ geometry_msgs/PoseStamped offset
 string orientation_mode
 float32 duration_sec
 float64 target_surface_distance_m
+float64 surface_tolerance_m
 float64 aligned_preapproach_distance_m
 string map_name
 string waypoint_name
