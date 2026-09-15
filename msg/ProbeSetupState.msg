@@ -15,6 +15,7 @@ uint8 MOTION_NOT_TESTED=0
 uint8 MOTION_MOVING=1
 uint8 MOTION_REACHED=2
 uint8 MOTION_FAILED=3
+uint8 MOTION_ORIENTED=4
 
 std_msgs/Header header
 string request_id
