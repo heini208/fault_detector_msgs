@@ -39,6 +39,8 @@ string[] routine_ids
 string[] reference_view_ids
 string[] reference_camera_ids
 string[] probe_point_ids
+# Distances correspond to probe_point_ids in the same order.
+float64[] probe_point_target_surface_distances_m
 
 bool has_reference_pixel
 int32 reference_pixel_u
