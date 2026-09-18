@@ -14,6 +14,7 @@ uint8 OPERATION_APPROVE_ALIGNED_POSE=12
 uint8 OPERATION_SELECT_OBJECT=15
 uint8 OPERATION_BEGIN_REFINEMENT=16
 uint8 OPERATION_END_REFINEMENT=17
+uint8 OPERATION_DELETE_PROBE_POINT=18
 
 uint8 operation
 string object_id
@@ -22,6 +23,7 @@ int32 reference_tag_id
 string reference_tag_family
 string routine_id
 string routine_display_name
+string probe_point_id
 string reference_view_id
 int32 pixel_u
 int32 pixel_v
