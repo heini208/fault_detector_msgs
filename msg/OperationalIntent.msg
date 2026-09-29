@@ -39,3 +39,5 @@ string waypoint_name
 string object_id
 string routine_id
 string probe_point_id
+# Empty uses configured defaults; otherwise normal or precision.
+string walking_profile
