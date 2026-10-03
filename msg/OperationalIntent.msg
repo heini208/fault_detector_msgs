@@ -26,6 +26,8 @@ uint8 INTENT_MOVE_SAVED_PROBE_ALIGNED_PREAPPROACH=25
 uint8 INTENT_MOVE_SAVED_PROBE_CLOSE_TO_SURFACE=26
 uint8 INTENT_MOVE_TO_ROUTINE_BASE_POSITION=27
 
+uint8 INTENT_CHANGE_BODY_HEIGHT=28
+
 uint8 intent
 TagElement tag
 geometry_msgs/PoseStamped offset
@@ -42,3 +44,5 @@ string routine_id
 string probe_point_id
 # Empty uses configured defaults; otherwise normal or precision.
 string walking_profile
+# Offset from nominal standing height, in metres. Used only by change_body_height.
+float64 body_height_m
