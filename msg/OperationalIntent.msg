@@ -47,3 +47,6 @@ string probe_point_id
 string walking_profile
 # Offset from nominal standing height, in metres. Used only by change_body_height.
 float64 body_height_m
+
+# Maximum achieved probe-tip position error for move-to-tag, in metres.
+float64 tag_position_tolerance_m 0.01

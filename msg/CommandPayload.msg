@@ -23,3 +23,8 @@ geometry_msgs/PoseStamped[] pre_approach_offsets
 
 # Fraction of configured arm speed, in (0, 1].
 float64 arm_speed_scale 1.0
+
+# Maximum achieved probe-tip position error for move-to-tag, in metres.
+float64 tag_position_tolerance_m 0.01
+
+float64[] pre_approach_tolerances_m

@@ -96,3 +96,6 @@ string refinement_recovery_message
 
 string[] pathing_point_names
 geometry_msgs/Pose[] pathing_point_poses_object
+
+float64 routine_safe_position_tolerance_m 0.1
+float64[] pathing_point_tolerances_m

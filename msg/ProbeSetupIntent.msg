@@ -40,3 +40,5 @@ int32 pixel_v
 string approach_mode
 float64 target_surface_distance_m
 float64 aligned_preapproach_distance_m
+
+float64 position_tolerance_m 0.01
