@@ -35,6 +35,7 @@ string selected_reference_view_id
 int32 selected_reference_tag_id
 string selected_reference_tag_family
 bool has_base_position
+bool has_routine_safe_approach_pose
 string[] object_ids
 string[] routine_ids
 string[] reference_view_ids
