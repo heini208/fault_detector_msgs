@@ -7,7 +7,10 @@ string detail
 string reference_view_id
 string camera_id
 int32 slot_index
+# Native-resolution crop; no resampling. Not a calibrated geometry input.
 sensor_msgs/Image image
+# Crop bounds in the ORIGINAL RGB raster. Add x/y to preview-local pixels
+# before requesting geometry. Width/height equal the transmitted image size.
 int32 selectable_x
 int32 selectable_y
 int32 selectable_width
