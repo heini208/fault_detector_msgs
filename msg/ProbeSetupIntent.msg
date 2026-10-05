@@ -18,6 +18,13 @@ uint8 OPERATION_DELETE_PROBE_POINT=18
 uint8 OPERATION_SAVE_BASE_POSITION=19
 uint8 OPERATION_SAVE_ROUTINE_SAFE_APPROACH_POSE=20
 
+uint8 OPERATION_ADD_PATHING_POINT=21
+uint8 OPERATION_REORDER_PATHING_POINT=22
+
+string pathing_point_name
+int32 pathing_point_index
+int8 pathing_point_direction
+
 uint8 operation
 string object_id
 string object_display_name

@@ -17,3 +17,6 @@ string motion_sensor_id
 string walking_profile
 # Offset from nominal standing height, in metres. Used only by change_body_height.
 float64 body_height_m
+
+# Ordered intermediate targets before offset, for move_to_tag only.
+geometry_msgs/PoseStamped[] pre_approach_offsets

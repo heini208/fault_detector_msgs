@@ -93,3 +93,6 @@ bool motion_pending
 string motion_request_id
 bool refinement_recovery_required
 string refinement_recovery_message
+
+string[] pathing_point_names
+geometry_msgs/Pose[] pathing_point_poses_object

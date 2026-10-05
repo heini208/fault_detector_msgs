@@ -13,6 +13,10 @@ uint8 FRAME_TAG=3
 uint8 FRAME_BODY=4
 uint8 FRAME_MAP=5
 
+uint8 OPERATION_MOVE_PATHING_POINT=7
+uint8 OPERATION_MOVE_PRE_APPROACH_PATH=8
+
+int32 pathing_point_index
 uint8 operation
 uint8 frame
 geometry_msgs/Vector3 translation
