@@ -13,6 +13,7 @@ uint8 FRAME_TAG=3
 uint8 FRAME_BODY=4
 uint8 FRAME_MAP=5
 
+uint8 OPERATION_ADJUST_PATHING_POSE=9
 uint8 OPERATION_MOVE_PATHING_POINT=7
 uint8 OPERATION_MOVE_PRE_APPROACH_PATH=8
 
@@ -24,3 +25,5 @@ float64 pitch_rad
 float64 yaw_rad
 float64 position_tolerance_m
 float64 orientation_tolerance_rad
+# Fraction of configured arm speed, in (0, 1].
+float64 arm_speed_scale 1.0

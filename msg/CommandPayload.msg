@@ -20,3 +20,6 @@ float64 body_height_m
 
 # Ordered intermediate targets before offset, for move_to_tag only.
 geometry_msgs/PoseStamped[] pre_approach_offsets
+
+# Fraction of configured arm speed, in (0, 1].
+float64 arm_speed_scale 1.0
