@@ -28,3 +28,5 @@ float64 arm_speed_scale 1.0
 float64 tag_position_tolerance_m 0.01
 
 float64[] pre_approach_tolerances_m
+
+float64[] pre_approach_speed_scales

@@ -99,3 +99,18 @@ geometry_msgs/Pose[] pathing_point_poses_object
 
 float64 routine_safe_position_tolerance_m 0.1
 float64[] pathing_point_tolerances_m
+
+bool fully_custom
+bool has_alignment_candidate
+bool has_final_probe_candidate
+float64 pre_approach_speed_scale 1.0
+float64 final_probe_speed_scale 0.2
+float64[] pathing_point_speed_scales
+string[] final_pathing_point_names
+float64[] final_pathing_point_tolerances_m
+float64[] final_pathing_point_speed_scales
+geometry_msgs/Pose[] final_pathing_point_poses_object
+bool[] probe_point_fully_custom
+
+float64 aligned_position_tolerance_m 0.01
+float64 final_position_tolerance_m 0.01

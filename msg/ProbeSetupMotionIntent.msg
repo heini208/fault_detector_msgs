@@ -27,3 +27,5 @@ float64 position_tolerance_m
 float64 orientation_tolerance_rad
 # Fraction of configured arm speed, in (0, 1].
 float64 arm_speed_scale 1.0
+
+string path_stage "alignment"
