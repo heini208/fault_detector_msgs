@@ -2,12 +2,15 @@
 uint8 PLAN=0
 uint8 RECORD=1
 uint8 POLL=2
+# End a failed attempt and finalize its partial recording as failed.
+uint8 ABORT_RECORDING=3
 string request_id
 uint8 operation
 ---
 bool success
 string detail
-# idle, starting, recording, stopping, complete, failed
+# idle, waiting_tag, starting, recording, stopping, aborting, complete, failed
 string recording_state
-# safe, aligned, measurement, retract-to-aligned, retract-to-safe
+bool recording_stopped
+# Forward stages: safe, aligned, measurement. Return uses reached checkpoints.
 CommandPayload[] plan
