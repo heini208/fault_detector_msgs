@@ -54,6 +54,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SelectSensorAttachment.srv"
   "srv/ConfirmSensorAttachment.srv"
   "srv/SetSensorAcquisition.srv"
+  "srv/ProbePointExecutionStep.srv"
   "action/ExecuteProbePoint.action"
   "action/ExecuteOperation.action"
   "action/ExecuteNavigationSetup.action"

@@ -30,3 +30,6 @@ float64 tag_position_tolerance_m 0.01
 float64[] pre_approach_tolerances_m
 
 float64[] pre_approach_speed_scales
+
+# Additional attempts after confirmed stop and successful recovery.
+uint32 retries

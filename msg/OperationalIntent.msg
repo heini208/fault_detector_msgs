@@ -1,3 +1,4 @@
+uint8 INTENT_EXECUTE_PROBE_POINT=31
 uint8 INTENT_UNSPECIFIED=0
 uint8 INTENT_STAND_UP=1
 uint8 INTENT_READY_ARM=2
@@ -51,3 +52,6 @@ float64 body_height_m
 
 # Maximum achieved probe-tip position error for move-to-tag, in metres.
 float64 tag_position_tolerance_m 0.01
+
+# Additional attempts after confirmed stop and successful recovery.
+uint32 retries
