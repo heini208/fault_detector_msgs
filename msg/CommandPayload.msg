@@ -34,5 +34,5 @@ float64[] pre_approach_speed_scales
 # Additional attempts after confirmed stop and successful recovery.
 uint32 retries
 
-# Bypass imported map occupancy for this motion; other collision guards remain active.
+# Bypass environmental occupancy for this motion; other collision guards remain active.
 bool ignore_environment_collisions false
