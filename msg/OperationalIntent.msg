@@ -55,3 +55,6 @@ float64 tag_position_tolerance_m 0.01
 
 # Additional attempts after confirmed stop and successful recovery.
 uint32 retries
+
+# Ignore sensed occupancy for this command; existing execution guards still apply.
+bool ignore_environment_collisions false
