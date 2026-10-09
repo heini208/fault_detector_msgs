@@ -15,7 +15,8 @@ string probe_point_id
 string motion_sensor_id
 # Empty uses configured defaults; otherwise normal or precision.
 string walking_profile
-# Offset from nominal standing height, in metres. Used only by change_body_height.
+# Offset from nominal standing height, in metres, for change_body_height.
+# A nonzero value also requests a height change after move_base_to_tag succeeds.
 float64 body_height_m
 
 # Ordered intermediate targets before offset, for move_to_tag only.

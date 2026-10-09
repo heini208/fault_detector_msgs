@@ -35,6 +35,8 @@ string selected_reference_view_id
 int32 selected_reference_tag_id
 string selected_reference_tag_family
 bool has_base_position
+# Saved offset from nominal standing height for the selected routine, in metres.
+float64 base_body_height_m
 bool has_routine_safe_approach_pose
 string[] object_ids
 string[] routine_ids
