@@ -18,6 +18,7 @@ uint32 revision
 uint8 operation
 uint8 state
 string detail
+string runtime_error
 string active_map
 uint8 mode
 string[] map_names
