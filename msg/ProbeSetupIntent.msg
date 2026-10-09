@@ -50,6 +50,11 @@ string path_stage "alignment"
 float64 arm_speed_scale 1.0
 
 uint8 OPERATION_SET_PATHING_POINT_SPEED=25
+uint8 OPERATION_SAVE_ROUTINE_MAP=26
+uint8 OPERATION_SAVE_ROUTINE_WAYPOINT=27
+
+string map_name
+string waypoint_name
 
 # Saved stationary body-height offset for OPERATION_SAVE_BASE_POSITION, in metres.
 # Zero keeps nominal walking height after moving to the saved base position.
