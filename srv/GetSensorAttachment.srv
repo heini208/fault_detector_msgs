@@ -1,0 +1,5 @@
+---
+bool success
+string detail
+SensorAttachmentState state
+SensorHeadGeometry[<=1] head_geometry
