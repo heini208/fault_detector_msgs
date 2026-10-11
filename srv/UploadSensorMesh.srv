@@ -1,0 +1,8 @@
+string sha256
+uint32 byte_count
+uint32 offset
+uint8[<=49152] data
+---
+bool success
+bool complete
+string message

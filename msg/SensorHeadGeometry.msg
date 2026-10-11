@@ -1,0 +1,9 @@
+string collision_sha256
+uint32 collision_byte_count
+geometry_msgs/Pose hand_to_geometry
+string mounting_template_id
+uint32 mounting_template_revision
+string reference_model_fingerprint
+bool mounting_template_verified
+float64 clearance_m
+string configuration_method
