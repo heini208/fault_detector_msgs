@@ -42,6 +42,7 @@ float64 target_surface_distance_m
 float64 aligned_preapproach_distance_m
 
 float64 position_tolerance_m 0.01
+bool precision_mode false
 
 uint8 OPERATION_APPROVE_CUSTOM_PROBE=24
 bool fully_custom false
@@ -50,6 +51,7 @@ string path_stage "alignment"
 float64 arm_speed_scale 1.0
 
 uint8 OPERATION_SET_PATHING_POINT_SPEED=25
+uint8 OPERATION_SET_PATHING_POINT_SETTINGS=28
 uint8 OPERATION_SAVE_ROUTINE_MAP=26
 uint8 OPERATION_SAVE_ROUTINE_WAYPOINT=27
 

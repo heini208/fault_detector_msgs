@@ -54,8 +54,12 @@ string walking_profile
 # Offset from nominal standing height, in metres. Used only by change_body_height.
 float64 body_height_m
 
-# Maximum achieved probe-tip position error for move-to-tag, in metres.
+# Maximum achieved probe-tip position error for move-to-tag or precision arm goals, in metres.
 float64 tag_position_tolerance_m 0.01
+
+# Opt in to settled endpoint verification and bounded precision corrections.
+bool precision_mode false
+float64 precision_orientation_tolerance_rad 0.03490658503988659
 
 # Additional attempts after confirmed stop and successful recovery.
 uint32 retries

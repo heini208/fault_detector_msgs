@@ -120,3 +120,7 @@ bool[] probe_point_fully_custom
 
 float64 aligned_position_tolerance_m 0.01
 float64 final_position_tolerance_m 0.01
+bool aligned_precision_mode false
+bool final_precision_mode false
+bool[] pathing_point_precision_modes
+bool[] final_pathing_point_precision_modes
