@@ -10,3 +10,7 @@ string command_id
 uint8 state
 string detail
 uint32 buffered_command_count
+
+# Execution explicitly confirmed that this failure permits a fresh attempt.
+# False for cancellation, unconfirmed stopping, and failed recovery.
+bool retry_safe
