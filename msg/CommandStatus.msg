@@ -14,3 +14,6 @@ uint32 buffered_command_count
 # Execution explicitly confirmed that this failure permits a fresh attempt.
 # False for cancellation, unconfirmed stopping, and failed recovery.
 bool retry_safe
+
+# Failure has completed required stopping/recovery and permits skipping onward.
+bool continuation_safe
