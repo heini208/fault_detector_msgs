@@ -17,3 +17,8 @@ bool retry_safe
 
 # Failure has completed required stopping/recovery and permits skipping onward.
 bool continuation_safe
+
+# Optional replacement for the next attempt; valid only on failure.
+# Does not itself grant retry/continuation safety.
+bool has_retry_command
+CommandPayload retry_command
