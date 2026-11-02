@@ -52,6 +52,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/DeleteSensor.srv"
   "srv/CancelOperation.srv"
   "srv/EmergencyStop.srv"
+  "srv/GetCommandStatus.srv"
   "srv/CloseSetup.srv"
   "srv/ExecuteProbeSetup.srv"
   "srv/GetProbeReferencePreview.srv"

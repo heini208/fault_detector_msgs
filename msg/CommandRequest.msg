@@ -17,3 +17,5 @@ string context_id
 uint8 origin
 uint8 recording_policy
 CommandPayload payload
+# Emergency-only fence: these request identities must never execute again.
+string[] stop_request_ids

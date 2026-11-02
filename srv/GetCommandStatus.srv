@@ -1,0 +1,4 @@
+# Read-only reconciliation. Missing owner history is UNKNOWN, never idle proof.
+string request_id
+---
+CommandStatus status
