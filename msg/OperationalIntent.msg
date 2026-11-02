@@ -5,8 +5,8 @@ uint8 INTENT_READY_ARM=2
 uint8 INTENT_STOW_ARM=3
 uint8 INTENT_TOGGLE_GRIPPER=4
 uint8 INTENT_CLOSE_GRIPPER=5
-uint8 INTENT_RETURN_TO_ESTOP_STATE=6
-uint8 INTENT_STOP_BASE=7
+# Value 6 (implicit stow/gripper recovery) is retired; do not reuse.
+# Value 7 (zero-Twist-only base stop) is retired; use the latched software stop.
 uint8 INTENT_MOVE_ARM_TO_TAG=8
 uint8 INTENT_MOVE_ARM_TO_TAG_AND_WAIT=9
 # Value 10 is retired; do not reuse.
@@ -34,6 +34,7 @@ uint8 INTENT_LAUNCH_ROUTINE_MAP=32
 uint8 INTENT_MOVE_TO_ROUTINE_WAYPOINT=33
 uint8 INTENT_MEASURE_SENSOR_TIP_DISTANCE=34
 uint8 INTENT_ORIENT_SENSOR_TIP_TO_SURFACE=35
+uint8 INTENT_RECOVER_ARM=36
 
 uint8 intent
 TagElement tag

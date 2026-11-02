@@ -13,6 +13,9 @@ string request_id
 string execution_instance_id
 # Monotonic sequence within this owner incarnation; ROS header time is diagnostic.
 uint64 status_sequence
+# Software inhibition, separate from the robot safety E-stop.
+bool software_stop_latched
+bool software_stop_confirmed
 string command_id
 uint8 state
 string detail

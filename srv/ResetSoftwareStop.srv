@@ -1,0 +1,6 @@
+# Request a nonmoving reset. Acceptance is not confirmation that the latch cleared.
+string client_id
+---
+bool accepted
+string request_id
+string detail

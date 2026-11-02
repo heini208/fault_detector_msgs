@@ -23,6 +23,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CommandPayload.msg"
   "msg/CommandStatus.msg"
+  "msg/SoftwareStopState.msg"
   "msg/CommandRequest.msg"
   "msg/OperationalIntent.msg"
   "msg/ApplicationCommandState.msg"
@@ -52,6 +53,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/DeleteSensor.srv"
   "srv/CancelOperation.srv"
   "srv/EmergencyStop.srv"
+  "srv/ResetSoftwareStop.srv"
   "srv/GetCommandStatus.srv"
   "srv/CloseSetup.srv"
   "srv/ExecuteProbeSetup.srv"
