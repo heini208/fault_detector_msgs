@@ -12,6 +12,7 @@ uint8 RECORDING_POLICY_INCLUDE_IF_RECORDING_ACTIVE=2
 
 std_msgs/Header header
 string request_id
+string execution_instance_id
 string client_id
 string context_id
 uint8 origin
@@ -19,3 +20,4 @@ uint8 recording_policy
 CommandPayload payload
 # Emergency-only fence: these request identities must never execute again.
 string[] stop_request_ids
+string[] stop_execution_instance_ids

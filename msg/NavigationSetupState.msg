@@ -16,6 +16,8 @@ uint8 MODE_LOCALIZATION=2
 
 std_msgs/Header header
 string request_id
+string execution_instance_id
+uint64 status_sequence
 string client_id
 string context_id
 uint32 revision

@@ -1,4 +1,8 @@
 # Read-only reconciliation. Missing owner history is UNKNOWN, never idle proof.
 string request_id
+string execution_instance_id
 ---
 CommandStatus status
+# Discovery only: availability never confirms another instance's execution idle.
+bool accepting_commands
+string[] unresolved_request_ids

@@ -10,6 +10,9 @@ uint8 STATE_STOP_UNCONFIRMED=8
 
 std_msgs/Header header
 string request_id
+string execution_instance_id
+# Monotonic sequence within this owner incarnation; ROS header time is diagnostic.
+uint64 status_sequence
 string command_id
 uint8 state
 string detail
