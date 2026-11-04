@@ -20,3 +20,5 @@ uint8 intent
 uint8 state
 string detail
 uint32 buffered_command_count
+# Execution confirmed that failure completed required stopping/recovery.
+bool continuation_safe
