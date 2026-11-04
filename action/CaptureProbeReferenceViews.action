@@ -1,6 +1,5 @@
 string client_id
 string context_id
-string[] reference_camera_ids
 bool replace_existing
 ---
 ProbeSetupState state
